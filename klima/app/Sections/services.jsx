@@ -8,7 +8,7 @@
 // )}
 
 
-import ServiceItems from "./Items/serviceItems";
+import ServiceItems from "./items/serviceItems";
 
 export default function Services({ handleNavigation }) {
     return (
