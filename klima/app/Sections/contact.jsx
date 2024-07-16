@@ -44,7 +44,7 @@ export default function Contact() {
             <div>
                 <iframe
                 className="rounded-3xl w-full h-full lg:h-full"
-                src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d21612.16457174861!2d18.943471!3d47.382275!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4741e6acef45fb2b%3A0x86ba92b86eb8f5df!2s%C3%89rd%2C%20Bodrog%20u.%2025%2C%202030%20Hungary!5e0!3m2!1sen!2sus!4v1719136497586!5m2!1sen!2sus"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2700.185269911374!2d19.05164249213116!3d47.408327327326376!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4741e7c5c40055eb%3A0xeda3781b46af43ec!2sBudapest%2C%20Kozmosz%20stny.%201%2C%201214%20Hungary!5e0!3m2!1sen!2sus!4v1721161560462!5m2!1sen!2sus"
                 style={{ border: 0 }}
                 allowFullScreen=""
                 loading="lazy"

@@ -68,7 +68,7 @@ export default function Footer({ handleNavigation }) {
                     <ul className="space-y-4">
                         <li className="flex items-center gap-1 duration-500 hover:scale-105">
                             <MapIcon />
-                            <span className="text-lg">2030 Érd Bodrog Utca 25.</span>
+                            <span className="text-lg">1214 Kozmosz sétány 1.</span>
                         </li>
                         <li className="flex items-center gap-1 duration-500 hover:scale-105">
                             <PhoneIcon />
