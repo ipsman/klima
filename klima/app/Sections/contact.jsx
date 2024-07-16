@@ -35,7 +35,7 @@ export default function Contact() {
                         </li>
                         <li className="flex items-center gap-1 duration-500 hover:scale-105">
                        
-                            <a rel="noopener noreferrer" href={"mailto:" + EMAIL} className="text-lg">
+                            <a rel="noopener noreferrer" className="text-lg">
                             A kiszállás Pest vármegyén belül ingyenes.
                             </a>
                         </li>
