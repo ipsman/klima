@@ -102,8 +102,8 @@ export default function Home() {
             <NavBar />
             <MainNav selectedPage={selectedPage} handleNavigation={handleNavigation} />
             <UnderNav selectedPage={selectedPage} handleNavigation={handleNavigation} />
-            <div className="flex-grow">
-                {renderPage(selectedPage)}
+            <div className="flex-grow p-2 xsm:p-4 sm:p-8 lg:p-16">
+                {renderPage()}
             </div>
             <Footer selectedPage={selectedPage} handleNavigation={handleNavigation} />
         </main>

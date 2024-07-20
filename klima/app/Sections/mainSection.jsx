@@ -38,14 +38,14 @@ export default function MainSection({ handleNavigation }) {
     };
 
     return (
-        <div className="h-screen w-screen z-10 relative">
-            <section className="bg-[url('https://klimaszereles-budapesten.hu/temp/350/image_hd.jpg')]">
-                <div className="container flex flex-col justify-center p-6 mx-auto sm:py-12 lg:py-24 lg:flex-row lg:justify-between">
-                    <div className="flex flex-col justify-center p-6 bg-[#ffffffe0] shadow-lg backdrop-blur-sm text-center rounded-2xl lg:max-w-[800px] lg:text-left">
-                        <h1 className="text-4xl lg:text-5xl font-bold leading-none sm:text-6xl">
+        <div className="h-screen w-screen z-10 relative shrink-0">
+            <section className="bg-[url('https://klimaszereles-budapesten.hu/temp/350/image_hd.jpg')] bg-cover bg-center">
+                <div className="container flex flex-col justify-center p-4 xsm:p-6 mx-auto sm:py-12 lg:py-24 lg:flex-row lg:justify-between">
+                    <div className="flex flex-col justify-center p-4 xsm:p-6 bg-[#ffffffe0] shadow-lg backdrop-blur-sm text-center rounded-2xl lg:max-w-[800px] lg:text-left">
+                        <h1 className="text-3xl xsm:text-2xl lg:text-5xl font-bold leading-none sm:text-6xl">
                             KLÍMASZERELÉS KARBANTARTÁS TISZTÍTÁS
                         </h1>
-                        <p className="mt-6 mb-8 text-lg sm:mb-12">
+                        <p className="mt-4 xsm:mt-6 mb-6 xsm:mb-8 text-sm xsm:text-lg sm:mb-12">
                             SZÁMLA, GARANCIA, SZÜKSÉGES DOKUMENTUMOK<br />
                             NKVH-nál regisztrált vállalkozás vagyunk, ezért mi minden esetben számlát állítunk ki és garanciát vállalunk az általunk elvégzett munkára. A telepítés mellé Telepítési tanúsítvány és Jótállási jegy is kiállításra kerül.
                         </p>
@@ -53,13 +53,13 @@ export default function MainSection({ handleNavigation }) {
                             <a 
                                 href="#" 
                                 onClick={(e) => handleNavigationClick(e, "products")} 
-                                className="px-8 py-3 text-lg font-semibold rounded bg-[#515151c4] text-gray-50 duration-500 hover:scale-110">
+                                className="px-6 xsm:px-8 py-2 xsm:py-3 text-sm xsm:text-lg font-semibold rounded bg-[#515151c4] text-gray-50 duration-500 hover:scale-110">
                                 Kínálat
                             </a>
                             <a 
                                 href="#" 
                                 onClick={(e) => handleNavigationClick(e, "contact")}  
-                                className="px-8 py-3 text-lg font-semibold border rounded border-gray-800 duration-500 hover:scale-110">
+                                className="px-6 xsm:px-8 py-2 xsm:py-3 text-sm xsm:text-lg font-semibold border rounded border-gray-800 duration-500 hover:scale-110">
                                 Kapcsolat
                             </a>
                         </div>

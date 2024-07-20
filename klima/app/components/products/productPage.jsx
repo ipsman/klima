@@ -114,10 +114,10 @@ export default function ProductPage({ productData }) {
                         <ImageGallery productImages={productData.images} />
                     </div>
                     <div className="flex flex-col justify-center p-6 text-center rounded-sm lg:text-left">
-                        <h1 className="text-3xl font-bold">{productData.name}</h1>
+                        <h1 className="text-3xl font-bold xsm:text-2xl">{productData.name}</h1>
                         <div className="mt-4">
-                            <p className="font-bold text-2xl">Alapár: {productData.alapar} Ft</p>
-                            <p className="font-bold text-2xl">Alapszerelés: {productData.beszerelve} Ft</p>
+                            <p className="font-bold text-2xl xsm:text-xl">Alapár: {productData.alapar} Ft</p>
+                            <p className="font-bold text-2xl xsm:text-xl">Alapszerelés: {productData.beszerelve} Ft</p>
                         </div>
                         <p className="text-xl mt-2">Az alapszerelés tartalmaz 3méteres csőhosszig minden segédanyagot illetve minőségi anyagok felhasználásával történő kivitelezést.</p>
                     </div>
@@ -139,14 +139,6 @@ export default function ProductPage({ productData }) {
                                     onClick={() => setSelectedTab('parameters')}
                                 >
                                     Paraméterek
-                                </button>
-                            </li>
-                            <li className="mr-2">
-                                <button
-                                    className={`inline-block p-4 border-b-2 ${selectedTab === 'documents' ? 'border-black' : 'border-transparent'}`}
-                                    onClick={() => setSelectedTab('documents')}
-                                >
-                                    Csatolt dokumentumok
                                 </button>
                             </li>
                         </ul>

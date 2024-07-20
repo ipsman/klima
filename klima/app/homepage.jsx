@@ -21,8 +21,8 @@ import Contact from "./Sections/contact";
 
 export default function HomePage({ handleNavigation }) {
   return (
-    <div className="flex flex-col gap-16 lg:gap-32">
-      <MainSection handleNavigation={handleNavigation} />
+    <div className="flex flex-col gap-4 xsm:gap-32 sm:gap-16 lg:gap-32">
+      <MainSection handleNavigation={handleNavigation}/>
       <Services handleNavigation={handleNavigation} />
       <ChooseUs />
       <Contact />
