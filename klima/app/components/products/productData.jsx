@@ -1252,8 +1252,8 @@ export const data = [
             },
         ],
         
-        alapar: 1399999,
-        beszerelve: 1469999,
+        alapar: 310000,
+        beszerelve: 380000,
         shortText: "Időzítő funkció • Turbo üzemmód • Follow me funkció • Vészhelyzeti üzemmód • Lágy légáram funkció • Alvás automata funkció",
         leiras: [
             {
@@ -1353,8 +1353,8 @@ export const data = [
             },
         ],
         
-        alapar: 310000,
-        beszerelve: 380000,
+        alapar: 1399999,
+        beszerelve: 1469999,
         shortText: "Ennél a Daikin klíma modellnél a prémium minőség, megbízhatóság mellé megfizethetőség társul. A légkondícionáló ár-érték aránya kiemelkedő. A klímát lakása bármely helyiségébe nyugodt szívvel ajánljuk. A Daikin kültéri egysége ízléses, tartós és könnyen felszerelhető a tetőre, a teraszra vagy egyszerűen a fal mellé is állítható. Új, fejlett inverter technológiájának köszönhetően nemcsak energiatakarékos, de kiváló hűtési és fűtési tulajdonságokkal is rendelkezik, a téli -15 fokos kinti hőmérséklet mellett is kitűnően tud fűteni és természetesen a nagy nyári melegben hűteni. A hűtési és fűtési funkció mellett párátlanítás és ventillációs (levegő keringetése) funkció is választató.",
         leiras: [
             {
